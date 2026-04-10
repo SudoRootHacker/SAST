@@ -1,3 +1,3 @@
-userid=admin
-password=test12345
-apikey=test12345678
+$user_id=admin123
+$password=test12345
+$apikey=test12345678
