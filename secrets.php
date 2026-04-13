@@ -1,6 +1,6 @@
 
 <?php
-$api_key = "sk_live_123456789";
+$api_key = "";
 $db_password = "rootpassword";
 echo "Secrets loaded";
 ?>
