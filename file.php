@@ -1,5 +1,7 @@
-
 <?php
-$file = $_GET['file'];
-include($file);
+
+$page = $_GET['page'];
+
+include($page);
+
 ?>
