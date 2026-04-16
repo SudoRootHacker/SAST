@@ -1,6 +1,9 @@
-
 <?php
-$password = "admin123";
+
+$password = $_POST['password'];
+
 $hash = md5($password);
-echo $hash;
+
+echo "Password Hash: " . $hash;
+
 ?>
