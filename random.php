@@ -1,5 +1,7 @@
-
 <?php
+
 $token = rand();
-echo $token;
+
+echo "Generated token: " . $token;
+
 ?>
