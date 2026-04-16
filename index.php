@@ -1,9 +1,10 @@
-
 <?php
 echo "<h1>SAST Vulnerable Demo</h1>";
 
-echo "<a href='xss.php?name=test'>Reflected XSS</a><br>";
-echo "<a href='command.php?cmd=ls'>Command Injection</a><br>";
-echo "<a href='file.php?file=test.txt'>File Include</a><br>";
-echo "<a href='redirect.php?url=https://example.com'>Open Redirect</a><br>";
+echo "<ul>";
+echo "<li><a href='xss.php?name=test'>Reflected XSS</a></li>";
+echo "<li><a href='command.php?ip=127.0.0.1'>Command Injection</a></li>";
+echo "<li><a href='file.php?page=index.php'>Local File Inclusion</a></li>";
+echo "<li><a href='redirect.php?url=https://google.com'>Open Redirect</a></li>";
+echo "</ul>";
 ?>
