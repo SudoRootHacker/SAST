@@ -1,19 +1,77 @@
+# DevSecOps CI/CD Pipeline with Jenkins
 
-# SAST Vulnerable Demo (For SonarQube Testing)
+This project demonstrates a complete DevSecOps pipeline that integrates security testing into the CI/CD workflow.
 
-This project intentionally contains insecure coding patterns to trigger findings in SAST tools like SonarQube.
+The pipeline automatically scans code, dependencies, and running applications to detect security vulnerabilities before deployment.
 
-Vulnerabilities included:
-- Reflected XSS
+---
+
+## Technologies Used
+
+- Jenkins
+- Docker
+- SonarQube
+- Trivy
+- Gitleaks
+- Syft
+- OWASP ZAP
+
+---
+
+## Pipeline Workflow
+
+Developer → GitHub → Jenkins Pipeline
+
+CI Stage
+- Trivy dependency scanning
+- Gitleaks secret detection
+- SonarQube static code analysis
+
+Build Stage
+- Docker image build
+- SBOM generation
+
+QA Stage
+- Application deployment
+- OWASP ZAP dynamic security testing
+
+Staging Stage
+- Production-like deployment
+- Smoke testing
+
+Production Stage
+- Final deployment
+
+---
+
+## Included Vulnerabilities
+
+The application intentionally includes vulnerable code to trigger security findings:
+
+- Cross-Site Scripting (XSS)
 - Command Injection
 - Local File Inclusion (LFI)
 - Path Traversal
 - Hardcoded Secrets
-- Weak Cryptography (MD5)
-- Insecure Randomness
+- Weak Cryptography
 - Open Redirect
 - Log Injection
-- Code Smells (unused variables, nested conditions, long functions)
+- Code Smells
 
-⚠️ For educational and testing purposes only.
-testt
+---
+
+## Project Documentation
+
+Detailed project documentation can be found in:
+
+docs/project-details.md
+
+---
+
+## Author
+
+Kanishka Khandelwal  
+Cybersecurity & DevSecOps Enthusiast
+
+LinkedIn:  
+https://www.linkedin.com/in/kanishka-khandelwal-a49050263/
