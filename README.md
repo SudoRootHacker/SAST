@@ -71,7 +71,7 @@ docs/project-details.md
 ## Author
 
 Kanishka Khandelwal  
-Cybersecurity & DevSecOps Enthusiast
+Associate Security Engineer|| DevSecOps Enthusiast|| VAPT
 
 LinkedIn:  
 https://www.linkedin.com/in/kanishka-khandelwal-a49050263/
