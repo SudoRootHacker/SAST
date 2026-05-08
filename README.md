@@ -1,4 +1,4 @@
-# DevSecOps CI/CD Pipeline with Jenkins
+# DevSecOps CI/CD Pipeline with Jenkins PROJECT 
 
 This project demonstrates a complete DevSecOps pipeline that integrates security testing into the CI/CD workflow.
 
